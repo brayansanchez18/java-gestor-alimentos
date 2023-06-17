@@ -1,0 +1,10 @@
+- clase productos debera ser una clase abstracta
+- dentro de esta crearemos una funcion abstracta de tipo void llamada PedirDatos de tipo void
+- eliminaremos el contructor actual y lo susutiuiremos por un constructor vacio y dentro de este llamaremos a la funcion PedirDatos
+- las clases hijas deberan definir esta funcion para funcionar correctamente
+- tendremos un nuevo tipo de producto ProdcutoEnlatado, este tipo de producto debera contar con el tipo de conserva usada
+para su envasado y su ramaje antes y despues de drenar
+
+
+- en la funcion PedirDatos debemos de hacer que cada clase use las ventanas JOPTIONPANE showinputdialog para solicitar la informacion requerida en cada caso
+- asi mismo deberan mostrar en pantalla los resultados mediante JOPTIONPANE showmessagedialog
